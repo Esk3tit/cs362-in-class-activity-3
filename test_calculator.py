@@ -11,7 +11,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calculator.add(-1, 1), 0)
         self.assertEqual(calculator.add(1.1, 3.3), 4.4)
 
-    # Test subtraction
+    # Test subtraction (last test case fails)
     def test_sub(self):
         self.assertEqual(calculator.sub(1, 1), 0)
         self.assertEqual(calculator.sub(-1, 1), -2)
